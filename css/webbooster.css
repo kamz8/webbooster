@@ -28,22 +28,6 @@
 background-color: rgba(238, 238, 238, 0.1);
 }
 
-.navbar-toggle {
-    border-color: rgba(238, 238, 238, 0.5);
-}
-.navbar-toggle:hover
-{
-	background-color: 	rgba(238, 238, 238, 0.1)
-}
-.navbar-toggle .icon-bar
-{
-	background-color: rgba(238, 238, 238, 0.5);	
-}
-.navbar-toggle span
-{
-	color: #B9B9B9;	
-}
-
 .logo img
 {
 	width:50%;	
@@ -52,7 +36,7 @@ background-color: rgba(238, 238, 238, 0.1);
 #slider-wraper
 {
 	color: #fff;
-	height: 850px;
+	height: 800px;
 	padding: 250px 0px;
 	background: transparent url("../img/slider2.jpg") no-repeat scroll center center / cover;
 	margin-bottom: 0px;	 
@@ -67,12 +51,6 @@ background-color: rgba(238, 238, 238, 0.1);
 
 .service-item {
     margin-bottom: 30px;
-	height: 350px;
-}
-
-.service-item p
-{
-	text-align: justify;	
 }
 
 #contact
@@ -93,12 +71,6 @@ footer{
 footer .footer
 {
 	padding: 2%;	
-}
-
-footer articel
-{
-	text-align: justify;
-	color: rgba(255, 255, 255, 0.7);		
 }
 
 footer .subfooter
@@ -122,14 +94,6 @@ footer .subfooter
         
 }
 
-.border-bottom
-{
-	border-bottom: 1px solid;
-	border-color: rgba(255,255,255,0.5);
-	margin-top: 2em;
-	padding-bottom: 1em 	
-}
-
 .bg-overley
 {
 left: 0px;
@@ -140,21 +104,10 @@ height: 100%;
 background-color: rgba(32, 32, 32, 0.8);
     
 }
-
-.bg-overley div
-{
-	position:relative;	
-}
-
 .bg-orange
 {
 	background: #ffc925 ;	
 }
-.bg-white
-{
-	background-color: #fff;	
-}
-
 
 .team-box
 {
@@ -181,65 +134,4 @@ background-color: rgba(32, 32, 32, 0.8);
 .margin-top-20
 {
 	margin-top: 20px;	
-}
-
-#top-link-block
-{
-	opacity: 0.85;	
-	
-}
-
-#top-link-block a 
-{
-	color: #333;	
-}
-
-#top-link-block.affix-top {
-    position: absolute; /* allows it to "slide" up into view */
-    bottom: -82px; /* negative of the offset - height of link element */
-    right: 10px; /* padding from the left side of the window */
-}
-#top-link-block.affix {
-    position: fixed; /* keeps it on the bottom once in view */
-    bottom: 18px; /* height of link element */
-    right: 10px; /* padding from the left side of the window */
-}
-
-form .form-control-feedback
-{
-	color: #333;
-	line-height: 34px;
-	
-}
-
-.error
-{
-	color: #CE1212;	
-}
-
-form textarea
-{
-	max-width: 555px;
-	min-height: 114px ;
-	max-height: 800px;
-	overflow:auto;
-	resize:vertical;
-}	
-
-.floatLeft
-{
-	float:left;	
-}
-
-.floatRight
-{
-	float:right;
-}
-
-.alert-box
-{
-  position: fixed;
-  top: 0px;
-  right: 0px;	
-  padding-top: 55px;
 }
